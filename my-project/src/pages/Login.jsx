@@ -44,7 +44,7 @@ const Login = () => {
     }
   };
   return (
-    <div className=" flex justify-center mt-40">
+    <div className=" flex justify-center w-screen">
     <ToastContainer/>
       <div
         className="sm:w-[25vw] h-fit max-w-md p-8 space-y-3  rounded-3xl justify-center

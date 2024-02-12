@@ -4,7 +4,7 @@ const token = localStorage.getItem('token');
 
 //apply base url for axios
 //const API_URL = "http://ec2-3-109-133-160.ap-south-1.compute.amazonaws.com:8082/api"
-const API_URL = "http://fintech-backend-c9xf.onrender.com/api"
+const API_URL = "https://fintech-backend-c9xf.onrender.com/api"
 const axiosApi = axios.create({
   baseURL: API_URL,
 })
